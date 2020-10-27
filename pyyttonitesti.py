@@ -63,7 +63,7 @@ def arvaus_peli(): #pyytää käyttäjältä numeron 0-10 ja arpoo oikean numero
                         main()
 
                     else: #Syötetty arvo ei vastaa sallittuja arvoja. Vaatii työtä!!!!!!!!!!
-                        print("haist ny vittu ja lait e tai k")
+                        print("Vastaa "K" tai "E".)
                         break
                         
                 elif oikea_numero != arvaus: #Arvattu numero ei ollut oikein
@@ -79,13 +79,13 @@ def arvaus_peli(): #pyytää käyttäjältä numeron 0-10 ja arpoo oikean numero
                             main()
 
                         else:#Syötetty arvo ei vastaa sallittuja arvoja. Vaatii työtä!!!!!!!!!
-                            print("haist ny vittu ja lait e tai k")
+                            print("Vastaa "K" tai "E".")
                             break
 
                     else:#Arvaus oli väärin, mutta yrityksiä on vielä jäljellä.
                         vastauksiajaljella = vastauksiajaljella - 1
                         print("Väärä vastaus! Oikea vastaus on: " + str(oikea_numero))
-                        yrityksia = yrityksia + 1 # Mieti voisko yrityksiä muuttuja olla samassa vastauksiajaljella function kanssa. Siten että sanakirja functiosta kääntää numero indeksit laskevaan järjestykseen!!!!!!!!!!!!!!!!!!!!!!
+                        yrityksia = yrityksia + 1 
                     
             else: #arvattu numero ei ollu väliltä 1-10. Palataan alkuun
                 print("Arvon tulee olla väliltä 1 - 10!")
