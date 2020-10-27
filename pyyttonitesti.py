@@ -84,7 +84,7 @@ def arvaus_peli(): #pyytää käyttäjältä numeron 0-10 ja arpoo oikean numero
 
                     else:#Arvaus oli väärin, mutta yrityksiä on vielä jäljellä.
                         vastauksiajaljella = vastauksiajaljella - 1
-                        print("Väärä vastaus! Oikea vastaus on: " + str(oikea_numero))
+                        print("Väärä vastaus!")
                         yrityksia = yrityksia + 1 
                     
             else: #arvattu numero ei ollu väliltä 1-10. Palataan alkuun
