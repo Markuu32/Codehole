@@ -1,0 +1,374 @@
+.musta {
+	grid-area:header;
+	height:100px; 
+	background-color: #17191b;
+	position: relative;
+	color: white;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.musta p{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+    transform: translate(-50%, -50%);	
+	font-size: 30px;
+}
+
+.icons {
+	grid-area:footer;
+	height:100px; 
+	background-color: #17191b;
+	position: relative;
+	color: white;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icons p{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+    transform: translate(-50%, -50%);	
+	font-size: 30px;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    'header';
+	width: 200px;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+.container > div {
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+}  
+
+
+
+
+.sininen {
+grid area:sininen;
+	height:100px; 
+	background-color: #519fa5;
+	position: relative;
+	color: black;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sininen p, .sininen1 p, .sininen2 p, .sininen3 p{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 70%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+    transform: translate(-50%, -50%);	
+	font-size: 30px;
+}
+
+.sininen i, .sininen1 i, .sininen2 i, .sininen3 i{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 40%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);	
+   font-size: 30px;
+}
+
+.vaaleanpunainen {
+grid area: pinkki;
+	height:100px; 
+	background-color: #f29e92;
+	position: relative;
+	
+	color: black;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vaaleanpunainen p, .vaaleanpunainen1 p, .vaaleanpunainen2 p, .vaaleanpunainen3 p{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 70%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+    transform: translate(-50%, -50%);	
+	font-size: 30px;
+}
+
+.vaaleanpunainen i, .vaaleanpunainen1 i, .vaaleanpunainen2 i, .vaaleanpunainen3 i{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 40%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);	
+   font-size: 30px;
+}
+
+.punainen {
+	background-color: #9f2112;
+	position: relative;
+	
+grid area: punainen;
+	height:100px; 
+	
+	color: black;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.punainen p, .punainen1 p, .punainen2 p, .punainen3 p{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 70%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+    transform: translate(-50%, -50%);	
+	font-size: 30px;
+}
+
+.punainen i, .punainen1 i, .punainen2 i, .punainen3 i{
+	margin: 0;
+   position: absolute;               /* 2 */
+   top: 40%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);	
+   font-size: 30px;
+}
+
+.ruskea {
+	background-color: #371608;
+	position: relative;
+	grid area: ruskea;
+
+
+	height:100px; 
+	
+	color: black;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ruskea p, .ruskea1 p, .ruskea2 p, .ruskea3 p{
+		margin: 0;
+   position: absolute;               /* 2 */
+   top: 70%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+    transform: translate(-50%, -50%);	
+	font-size: 30px;
+}
+
+.ruskea i, .ruskea1 i, .ruskea2 i, .ruskea3 i{
+		margin: 0;
+   position: absolute;               /* 2 */
+   top: 40%;                         /* 3 */
+   transform: translate(0, -50%);    /* 4 */
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);	
+   font-size: 30px;
+}
+
+*{
+box-sizing:border-box;
+margin:0;	
+display: inline-block;
+text-align: center;
+
+}
+
+html{
+font-family: impact;
+
+}
+
+@media only screen and (min-width: 420px) {
+
+	
+	.container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+	'sininen pinkki'
+	'punainen ruskea'
+	'footer footer';
+	width: 400px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+	div.icons{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	body{
+    max-width:960px;
+    margin:auto;
+    }
+	.sininen{
+		width:0,4791666666666667%;
+    margin:1.04166666666667%;
+	}
+	
+	.vaaleanpunainen{
+		width:0,4791666666666667%;
+    margin:1.04166666666667%;
+	}
+	
+	.punainen{
+		width:0,4791666666666667%;
+    margin:1.04166666666667%;
+	}
+	
+	.ruskea{
+		width:0,4791666666666667%;
+    margin:1.04166666666667%;
+	}
+	
+	.musta{
+	width:0,9791666666666667%;
+    margin:1.04166666666667%;
+	}
+	
+	.icons{
+	width:0,9791666666666667%;
+    margin:1.04166666666667%;
+    }
+	}
+
+
+	
+	
+.sininen1{
+	background-color: #033459;
+	grid area: sininen;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sininen2{
+	background-color: #070761;
+	grid area: sininen;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sininen3{
+	background-color: #2889D4;
+	grid area: sininen;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vaaleanpunainen1{
+	background-color: #A60058;
+	grid area: pinkki;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vaaleanpunainen2{
+	background-color: #EE007D;
+	grid area: pinkki;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vaaleanpunainen3{
+	background-color: #CA006A;
+	grid area: pinkki;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.punainen1{
+	background-color: #FF0000;
+	grid area: punainen;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.punainen2{
+	background-color: #CB0000;
+	grid area: punainen;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.punainen3{
+	background-color: #9A0012;
+	grid area: punainen;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ruskea1{
+	background-color: #CB6600;
+	grid area: ruskea;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ruskea2{
+	background-color: #6E3800;
+	grid area: ruskea;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ruskea3{
+	background-color: #A06100;
+	grid area: ruskea;
+	height:100px; 
+	position: relative;	
+	color: black;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
