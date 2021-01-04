@@ -90,7 +90,7 @@ def arvaus_peli(): #pyytää käyttäjältä numeron 0-10 ja arpoo oikean numero
             else: #arvattu numero ei ollu väliltä 1-10. Palataan alkuun
                 print("Arvon tulee olla väliltä 1 - 10!")
                     
-        except:#otetaan virheet kiinni. Vaatii työtä !!!!!!!!!!!!!!!!!!!!!!!!
+        except:#otetaan virheet kiinni. Vaatii työtä !!!!!!!!!!!!!!!!!!!!!!!!!
             print("Nyt tuli except")
 
 def laskin_ohjelma():
